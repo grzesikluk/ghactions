@@ -11,11 +11,11 @@ jobs:
     - run: echo "Hello World!"
 
     - name: Checkout
-    uses: actions/checkout@v4.2.2
+      uses: actions/checkout@v4.2.2
 
     - name: List files in the repo
-    run: |
-      echo "The repo is ${{ github.repository }} contains the following files:"
-      tree
+      run: |
+        echo "The repo is ${{ github.repository }} contains the following files:"
+        tree
 
   
